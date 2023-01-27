@@ -1,0 +1,343 @@
+
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS varisbles */
+:root{
+    --navbar-height:59px;
+}
+
+
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position:absolute ;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 1;
+    
+
+    
+}
+
+
+
+
+/* Navigation bar : logo and img */
+
+#logo{
+
+    margin: 16px 20px;
+}
+#logo img {
+    height: 32px;
+    margin: 2px 8px;
+    left: 0%;
+    top: 25%;
+    position: absolute;
+}
+
+
+
+
+/* Navigation bar : list styling */
+
+#navbar ul{
+    display: flex;
+    top: 0px;
+    position: relative;
+  
+    
+}
+#navbar ul li{
+   /* color: aqua; */
+   list-style: none;
+   font-size: 1.4rem;
+   
+}
+#navbar ul li a{
+    color: aqua;
+    display: block;
+    padding: 5px 24px;
+
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Fredericka the Great', cursive;
+    
+
+    
+}
+#navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255) ;
+    
+
+    
+}
+
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+
+}
+#home::before{
+    content: "";
+    background: url('../img/bg2.jpg') no-repeat center center/cover;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .85;
+
+   
+}
+
+
+
+#home h1{
+    color: rgb(255, 254, 254);
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+}
+#home p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Unbounded', cursive;
+}
+
+/* services section  */
+#services{
+    margin: 34px;
+    display: flex;
+    
+ 
+
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: #c3dad9;
+}
+#services .box img{
+
+    height: 160px;
+    /* width: 100px; */
+    display: block;
+    margin: auto;
+}
+#services .box p{
+    font-family: 'Unbounded', cursive;
+}
+#services{}
+#services{}
+
+/* clients section */
+
+#client-section{
+    height: 373px;
+    
+}
+#client-section::before{
+    content: "";
+    background: url('../img/bg3.jpg') no-repeat center center/cover;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    
+    z-index: -1;
+    opacity: .5;
+    
+    
+}
+
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#clients img{
+    height: 124px;
+
+
+}
+.clients-item{
+   padding: 54px ;
+
+
+}
+
+
+
+/* contact section */
+#contact{
+    position: relative;
+    
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .5;
+    /* background: url('../img/bg4.jpg') no-repeat center center/cover; */
+    background-color: rgb(31, 9, 9);
+
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+
+}
+
+#contact-box form{
+width: 40%;
+
+
+}
+#contact-box label{
+
+font-size: 1.3rem;
+
+
+
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+
+
+}
+
+#gender{
+    display: flex;
+    padding: 4px 4px;
+    flex-direction: column;
+}
+label input{
+   margin: .4rem;
+}
+
+
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Utility Classes */
+.h-primary{
+
+    font-size: 3.8rem;
+    padding: 12px;
+
+     font-family: 'Unbounded', cursive;
+}
+.h-secondary{
+
+    font-size: 2.8rem;
+    padding: 12px;
+     font-family: 'Unbounded', cursive;
+     font-size: 2.3rem;
+}
+.btn{
+
+    padding: 6px 20px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    color: rgb(132, 98, 35);
+    background-color: chartreuse;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+    
+
+}
+.btn:hover{
+    background-color: #03e9f4;
+    color: black;
+   box-shadow: inset 2px 2px 5px  #03e9f4,  2px 2px 25px  #03e9f4,  2px 2px 50px  #03e9f4,  2px 2px 200px 6px #03e9f4 ;
+   border-radius: 10px;
+
+}
+.center{
+    text-align: center;
+}
+
+
+.submit {
+    
+background-color: #4f0429;
+width: 100px !important;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+left: 43%;
+border: 2px solid rgb(70, 54, 54);
+/* color: antiquewhite; */
+}
+.submit:hover{
+    color: antiquewhite;
+    border: 2px solid white;
+
+    background-color: #f4037b;
+    box-shadow: inset 2px 2px 5px  #f4037b,  2px 2px 25px  #f4037b,  2px 2px 50px  #f4037b,  2px 2px 200px 6px #f4037b ;
+}
+
+
+
+
+
