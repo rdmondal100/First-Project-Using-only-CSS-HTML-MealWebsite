@@ -118,7 +118,19 @@ footer{
     padding: 5px;
     position: relative;
     top: 6%;
+    width: 110px;
+    height: 36px;
 }
+.btn:hover {
+    background-color: yellow;
+    color: black;
+    box-shadow: inset 2px 2px 5px #ff6d00, 2px 2px 25px #ff6d00, 2px 2px 50px #ff6d00, 2px 2px 200px 6px #ff6d00;
+    border-radius: 53px;
+    width: 117px;
+    height: 42px;
+    
 
+
+}
 
 
