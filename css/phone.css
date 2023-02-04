@@ -132,5 +132,35 @@ footer{
 
 
 }
+.submit {
 
+    background-color: #0b334c;
+    width: 125px !important;
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative !important;
+    left: 43%;
+    border: 2px solid rgb(26, 43, 59);
+    /* color: antiquewhite; */
+    box-shadow: 7px 8px 19px rgb(0 0 0) !important;
+    margin: 29px -13px;
+    transition: all .41s ease-in-out ;
+    border-radius: 20px !important;
+    cursor: pointer;
+    /* z-index: -1; */
+
+}
+.submit:hover {
+    width: 130px !important;
+    height: 45px !important;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(67, 59, 59, 0.675);
+    border-radius: 30px !important;
+
+
+    background-color: rgb(8, 12, 14);
+    box-shadow: inset 2px 2px 5px rgb(45, 38, 38), 2px 2px 25px rgb(45, 38, 38), 2px 2px 50px rgb(45, 38, 38), 2px 2px 200px 6px rgb(45, 38, 38) !important;
+}
 
