@@ -161,6 +161,6 @@ footer{
 
 
     background-color: rgb(8, 12, 14);
-    box-shadow: inset 2px 2px 5px rgb(45, 38, 38), 2px 2px 25px rgb(45, 38, 38), 2px 2px 50px rgb(45, 38, 38), 2px 2px 200px 6px rgb(45, 38, 38) !important;
+    box-shadow: inset 2px 2px 5px grey, 2px 2px 25px grey, 2px 2px 50px grey, 2px 2px 200px 6px grey !important;
 }
 
